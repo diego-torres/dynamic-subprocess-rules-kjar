@@ -1,4 +1,4 @@
-package com.myspace.dynamic_subprocess_kjar;
+package com.myspace.dynamic_subprocess_rules_kjar;
 
 import org.kie.api.runtime.process.WorkflowProcessInstance;
 
