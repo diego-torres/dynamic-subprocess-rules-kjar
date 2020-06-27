@@ -8,6 +8,7 @@ when
     $product: Product (name == "Product X")
     $exchangeModel : ProcessExchangeModel( )
 then
+    System.out.println("Found Product X");
     $exchangeModel.setSubprocess("child-a");
     $exchangeModel.setMessage("Product with price: " + $product.getPrice());
 end
